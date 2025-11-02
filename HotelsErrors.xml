@@ -29,14 +29,15 @@
     <Hotel Rating="4.5">
         <Name>Bellagio Hotel &amp; Casino</Name>
         <Phone>888-987-6667</Phone>
-        <Address NearestAirport="McCarran Intl">
+        <Location NearestAirport="McCarran Intl">
             <Number>3600</Number>
             <Street>S Las Vegas Blvd</Street>
             <City>Las Vegas</City>
             <State>NV</State>
             <Zip>89109</Zip>
-        
-        </Hotel> 
+        </Location>
+    </Hotel>
+
     <Hotel>
         <Name>The Plaza Hotel</Name>
         <Name>The Plaza Hotel, NYC Branch</Name> 
@@ -47,7 +48,6 @@
             <City>New York</City>
             <State>NY</State>
             <Zip>10019</Zip>
-        </Address>
     </Hotel>
 
     <Hotel Rating="4.1">
