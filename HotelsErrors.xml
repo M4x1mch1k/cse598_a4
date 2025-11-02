@@ -48,7 +48,6 @@
             <City>Beverly Hills</City>
             <State>CA</State>
             <Zip>90210</Zip>
-        </Address>
     </Hotel>
 
     <Hotel>
@@ -61,6 +60,7 @@
             <City>New York</City>
             <State>NY</State>
             <Zip>10019</Zip>
+        </Address>
     </Hotel>
 
     <Hotel>
