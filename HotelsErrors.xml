@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+        xsi:noNamespaceSchemaAddress="Hotels.xsd">
 
     <Hotel Rating="4.2">
         <Name>Westin</Name>
@@ -29,25 +29,13 @@
     <Hotel Rating="4.5">
         <Name>Bellagio Hotel &amp; Casino</Name>
         <Phone>888-987-6667</Phone>
-        <Location NearestAirport="McCarran Intl">
+        <Address NearestAirport="McCarran Intl">
             <Number>3600</Number>
             <Street>S Las Vegas Blvd</Street>
             <City>Las Vegas</City>
             <State>NV</State>
             <Zip>89109</Zip>
-        </Location>
-    </Hotel>
-
-    <Hotel>
-        <Name>The Plaza Hotel</Name>
-        <Name>The Plaza Hotel, NYC Branch</Name> 
-        <Phone>212-759-3000</Phone>
-        <Address NearestAirport="JFK Intl">
-            <Number>768</Number>
-            <Street>5th Ave</Street>
-            <City>New York</City>
-            <State>NY</State>
-            <Zip>10019</Zip>
+        </Address>
     </Hotel>
 
     <Hotel Rating="4.1">
@@ -61,6 +49,18 @@
             <State>CA</State>
             <Zip>90210</Zip>
         </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>The Plaza Hotel</Name>
+        <Name>The Plaza Hotel, NYC Branch</Name> 
+        <Phone>212-759-3000</Phone>
+        <Address NearestAirport="JFK Intl">
+            <Number>768</Number>
+            <Street>5th Ave</Street>
+            <City>New York</City>
+            <State>NY</State>
+            <Zip>10019</Zip>
     </Hotel>
 
     <Hotel>
